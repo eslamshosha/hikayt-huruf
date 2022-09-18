@@ -446,7 +446,7 @@ html[dir="rtl"] .add-to .dropdown-content {
   transition: all 0.3s ease-in-out;
 }
 .search-input {
-  background-color: #f2f2f2;
+  background-color: var(--white-color);
   max-width: 100%;
   width: 100%;
   height: 40px;
@@ -454,8 +454,8 @@ html[dir="rtl"] .add-to .dropdown-content {
   font-size: 16px;
   color: #a6a6a6;
   font-weight: 400;
-  border-radius: none;
-  border: 2px solid #f2f2f2;
+  border-radius: 0;
+  border: 2px solid var(--white-color);
   outline: none;
   transition: all 0.3s ease-in-out;
 }
@@ -1295,7 +1295,10 @@ html[dir="ltr"] .offers-section-background {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.offers-section .product-slider .swiper-btn{
+  top: 50%;
+  transform: translateY(-50%); 
+}
 @media (min-width: 1320px) {
   .product-slider .swiper-btn {
     display: -webkit-box;
@@ -2080,7 +2083,7 @@ html[dir="rtl"] .footer-accordion.active:after {
 }
 @media (max-width: 991px) {
   .nav-header {
-    padding: 10px 0 5px;
+    padding: 10px 0 10px;
     flex-wrap: wrap;
   }
   .hide-bg {
