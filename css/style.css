@@ -1474,7 +1474,7 @@ html[dir="ltr"] .offers-section-background {
   transform: scale(1.05);
 }
 .blog-content {
-  padding: 20px 25px 25px;
+  padding: 20px 10px 25px;
   background-color: #fff;
 }
 .blog-link {
@@ -1622,7 +1622,7 @@ html[dir="ltr"] .offers-section-background {
     font-size: 15px;
   }
   .blog-content {
-    padding: 20px 15px 25px;
+    padding: 20px 10px 25px;
   }
 }
 /*blog section*/
