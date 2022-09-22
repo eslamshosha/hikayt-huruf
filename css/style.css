@@ -2262,6 +2262,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     order: 3;
     margin-top: 10px;
     transform: none;
+    z-index: 9;
     transition: all 0.3s ease-in-out;
   }
   .fixed-nav .search-section {
@@ -2274,6 +2275,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .fixed-nav .search-open {
     top: 100px;
+    z-index: 99;
   }
   /*       header                    */
   /*                             footer                          */
